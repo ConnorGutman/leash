@@ -1,0 +1,55 @@
+@import 'coverr';
+@import 'type';
+@import 'nav';
+//Sections
+.container-fluid {
+  position: absolute;
+  top: 0;
+}
+#intro {
+  height: 75vh;
+  .col-xs-12 {
+    margin-top: 20vh;
+    .intro-search-bar {
+      width: 60%;
+      margin-left: 20%;
+      .input-group {
+        margin-top: 5vh;
+        input {
+          border: 0;
+          border-radius: 0;
+          height: 7vh;
+        }
+        button {
+          border: 0;
+          border-radius: 0;
+          height: 7vh;
+        }
+      }
+    }
+  }
+}
+#about {
+  padding: 10vh 0;
+  p {
+    margin: 0 20%;
+  }
+  .row {
+    margin: 0;
+    padding: 0 10%;
+    &:nth-of-type(1) {
+      margin-bottom: 5vh;
+    }
+    .col-sm-4 {
+      h1 {
+        position: absolute;
+        bottom: 0;
+        margin-left: 2%;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
